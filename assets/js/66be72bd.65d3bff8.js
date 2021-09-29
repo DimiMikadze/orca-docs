@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkorca_docs=self.webpackChunkorca_docs||[]).push([[835],{6247:function(o){o.exports=JSON.parse('{"allTagsPath":"https://elevensymbols.github.io/getorca.org/blog/tags","slug":"https://elevensymbols.github.io/getorca.org/blog/tags/facebook","name":"facebook","count":1,"permalink":"https://elevensymbols.github.io/getorca.org/blog/tags/facebook"}')}}]);
