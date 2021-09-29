@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkorca_docs=self.webpackChunkorca_docs||[]).push([[863],{2407:function(e){e.exports=JSON.parse('{"permalink":"https://elevensymbols.github.io/getorca.org/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
