@@ -1,6 +1,6 @@
 # Getting started
 
-Small description of what Orca is.
+Small description of what Orca.
 
 ### Quick start
 
