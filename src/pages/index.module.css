@@ -1,0 +1,68 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heroBanner {
+    text-align: left;
+  }
+}
+
+.title {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}
+
+.subtitle {
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .buttons {
+    justify-content: flex-start;
+  }
+}
+
+.screenshot {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  box-shadow: 0 16px 48px 0 rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+html[data-theme='dark'] .screenshot {
+  box-shadow: 0 16px 48px 0 rgb(255 255 255/ 10%);
+}

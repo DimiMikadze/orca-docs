@@ -1,0 +1,43 @@
+.npx {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto 0;
+  padding: 0.6rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 6px;
+  color: var(--textSecondary);
+  background-color: var(--border-light);
+  border: 1px solid var(--border);
+}
+
+@media screen and (max-width: 600px) {
+  .npx {
+    width: auto;
+    max-width: auto;
+    display: inline-flex;
+    justify-content: flex-start;
+    padding: 0.6rem 1.9rem;
+  }
+}
+
+html[data-theme='dark'] .npx {
+  color: #fff;
+  background-color: var(--ifm-color-gray-1000);
+  border: 1px solid var(--ifm-color-gray-1000);
+}
+
+.icon {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    display: none;
+  }
+}
