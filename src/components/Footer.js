@@ -8,17 +8,17 @@ export default function Footer() {
     <div className={styles.footer}>
       <div>
         <AiOutlineSwitcher />
-        <Link to="/docs/getting-started/installation">Documentation</Link>
+        <Link to='/docs/getting-started/installation'>Documentation</Link>
       </div>
 
       <div>
         <AiOutlineGithub />
-        <Link href="https://github.com/dimimikadze/orca">Github</Link>
+        <Link href='https://github.com/dimimikadze/orca'>Github</Link>
       </div>
 
       <div>
         <AiOutlineArrowsAlt />
-        <Link href="https://community.getorca.org">Demo</Link>
+        <Link href='https://community.getorca.org'>Demo</Link>
       </div>
     </div>
   );

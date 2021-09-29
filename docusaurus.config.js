@@ -7,12 +7,14 @@ module.exports = {
   tagline:
     'Within minutes, Orca gives you all the core features for building a social network, customer engagement, forum, or another type of community app.',
   url: 'https://getorca.org',
-  baseUrl: '/',
+  baseUrl: 'https://github.com/ElevenSymbols/getorca.org/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'dimimikadze', // Usually your GitHub org/user name.
-  projectName: 'orca', // Usually your repo name.
+  organizationName: 'ElevenSymbols', // Usually your GitHub org/user name.
+  projectName: 'getorca.org', // Usually your repo name.
+  url: 'https://elevensymbols.github.io.',
+  trailingSlash: true,
   themeConfig: {
     gtag: {
       trackingID: 'G-S35Z7Y1YR1',
@@ -71,7 +73,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/dimimikadze/orca',
+              href: 'https://github.com/ElevenSymbols/getorca.org',
             },
             {
               label: 'Orca demo app',
@@ -100,7 +102,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/dimimikadze/orca',
+          href: 'https://github.com/ElevenSymbols/getorca.org',
           label: 'Github',
           position: 'right',
         },
@@ -118,7 +120,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/DimiMikadze/orca/edit/main/packages/orca-docs',
+          editUrl: 'https://github.com/ElevenSymbols/getorca.org/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
