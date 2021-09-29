@@ -14,7 +14,7 @@ module.exports = {
   organizationName: 'ElevenSymbols', // Usually your GitHub org/user name.
   projectName: 'getorca.org', // Usually your repo name.
   url: 'https://elevensymbols.github.io.',
-  trailingSlash: true,
+  trailingSlash: false,
   themeConfig: {
     gtag: {
       trackingID: 'G-S35Z7Y1YR1',
