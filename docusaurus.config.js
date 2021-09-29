@@ -7,14 +7,14 @@ module.exports = {
   tagline:
     'Within minutes, Orca gives you all the core features for building a social network, customer engagement, forum, or another type of community app.',
   url: 'https://getorca.org',
-  baseUrl: 'https://elevensymbols.github.io/getorca.org/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'ElevenSymbols', // Usually your GitHub org/user name.
   projectName: 'getorca.org', // Usually your repo name.
   url: 'https://elevensymbols.github.io.',
-  trailingSlash: true,
+  trailingSlash: false,
   themeConfig: {
     gtag: {
       trackingID: 'G-S35Z7Y1YR1',
