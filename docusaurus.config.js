@@ -7,7 +7,7 @@ module.exports = {
   tagline:
     'Within minutes, Orca gives you all the core features for building a social network, customer engagement, forum, or another type of community app.',
   url: 'https://getorca.org',
-  baseUrl: 'https://github.com/ElevenSymbols/getorca.org/',
+  baseUrl: 'https://elevensymbols.github.io/getorca.org/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
