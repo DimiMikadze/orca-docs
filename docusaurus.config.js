@@ -87,7 +87,8 @@ module.exports = {
       title: '',
       logo: {
         alt: 'Orca Logo',
-        src: 'https://res.cloudinary.com/dkkf9iqnd/image/upload/v1632939411/community/c572c15e-72ab-4a72-b955-8be12931af06.png',
+        src: 'img/logo-full.png',
+        srcDark: 'img/logo-full-dark.png',
       },
       items: [
         {
