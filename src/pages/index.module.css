@@ -18,7 +18,7 @@
 }
 
 .title {
-  max-width: 800px;
+  max-width: 740px;
   margin: 0 auto;
   margin-bottom: 1rem;
 }
@@ -30,7 +30,7 @@
 }
 
 .subtitle {
-  max-width: 780px;
+  max-width: 760px;
   margin: 0 auto;
   font-size: 1.4rem;
 }
@@ -58,11 +58,14 @@
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
-  box-shadow: 0 16px 48px 0 rgb(0 0 0 / 10%);
-  border-radius: 10px;
-  overflow: hidden;
 }
 
-html[data-theme='dark'] .screenshot {
-  box-shadow: 0 16px 48px 0 rgb(255 255 255/ 10%);
+.screenshot img {
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: 0 16px 48px 0 rgb(0 0 0 / 5%);
+}
+
+html[data-theme='dark'] .screenshot img {
+  border: 1px solid white;
 }

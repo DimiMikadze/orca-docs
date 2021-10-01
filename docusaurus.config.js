@@ -3,9 +3,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'An open-source community platform for modern developers.',
+  title: 'Launch faster with a modern, open-source community platform.',
   tagline:
-    'Within minutes, Orca gives you all the core features for building a social or private network, customer engagement, or another type of community app.',
+    'Within minutes, Orca gives you all the core features for building a community app, which is beautifully designed, easy to use, and free for everyone.',
   url: 'https://getorca.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
