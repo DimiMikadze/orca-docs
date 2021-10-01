@@ -7,11 +7,11 @@ id: configuration
 
 In this section, we'll create an admin user that has privileges for managing community channels, community branding, users, and more.
 
-Plus, integrating [Cloudinary](https://cloudinary.com) CDN for hosting the images and [Mailgun](https://www.mailgun.com) for sending the emails.
+Plus, integrating [Cloudinary](https://cloudinary.com) CDN for hosting images, [Mailgun](https://www.mailgun.com) for sending emails, and configuring [Google Analytics](https://analytics.google.com) for tracking key metrics.
 
-## Creating an Admin user
+## Creating a Super Admin user
 
-You can create an admin user by running the following command from the root of the project.
+You can create a super admin user by running the following command from the root of the project.
 
 ```
 yarn create-super-admin your@email.com

@@ -5,7 +5,7 @@ id: installation
 
 # Installation
 
-Orca is an open-source community platform build with Typescript, Node, React, and MongoDB. It's great whether you're building a social network, a customer engagement app, a forum, or another type of community app.
+Orca is an open-source community platform build with Typescript, Node, React, and MongoDB. It's great whether you're building a social or private network, customer engagement, or another type of community app.
 
 ## Prerequisites
 

@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'An open-source community platform for modern developers.',
   tagline:
-    'Within minutes, Orca gives you all the core features for building a social network, customer engagement, forum, or another type of community app.',
+    'Within minutes, Orca gives you all the core features for building a social or private network, customer engagement, or another type of community app.',
   url: 'https://getorca.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
