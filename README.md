@@ -1,6 +1,6 @@
 # getorca.org
 
-This repo contains the source code and documentation powering [https://getorca.org/](https://getorca.org/)
+This repo contains the source code and documentation powering [getorca.org](https://getorca.org)
 
 ## Prerequisites
 
