@@ -1,3 +1,67 @@
+.container {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.topLeftOverlay {
+  background-image: url("../../static//img/top-left-overlay.svg");
+  background-size: cover;
+  position: absolute;
+  width: 1800px;
+  height: 1800px;
+  left: -1390px;
+  top: -400px;
+}
+
+.topRightOverlay {
+  background-image: url("../../static//img/top-right-overlay.svg");
+  background-size: cover;
+  position: absolute;
+  width: 2498px;
+  height: 2489px;
+  right: -1760px;
+  top: -453px;
+}
+
+@media screen and (max-width: 966px) {
+  .topLeftOverlay,
+  .topRightOverlay {
+    display: none;
+  }
+}
+
+.bottomLeftOverlay {
+  background-image: url("../../static//img/bottom-left-overlay.svg");
+  background-size: cover;
+  position: absolute;
+  width: 824px;
+  height: 822px;
+  left: -550px;
+  bottom: -350px;
+}
+
+.bottomRightOverlay {
+  background-image: url("../../static//img/bottom-right-overlay.svg");
+  background-size: cover;
+  position: absolute;
+  width: 724px;
+  height: 722px;
+  right: -450px;
+  bottom: -300px;
+}
+
+@media screen and (max-width: 966px) {
+  .bottomLeftOverlay,
+  .bottomRightOverlay {
+    display: none;
+  }
+}
+
+.homePageFeatures {
+  position: relative;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -18,7 +82,7 @@
 }
 
 .title {
-  max-width: 740px;
+  max-width: 790px;
   margin: 0 auto;
   margin-bottom: 1rem;
 }
@@ -30,7 +94,7 @@
 }
 
 .subtitle {
-  max-width: 760px;
+  max-width: 900px;
   margin: 0 auto;
   font-size: 1.4rem;
 }
@@ -58,6 +122,8 @@
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
+  background-color: white;
+  position: relative;
 }
 
 .screenshot img {
@@ -66,6 +132,6 @@
   box-shadow: 0 16px 48px 0 rgb(0 0 0 / 5%);
 }
 
-html[data-theme='dark'] .screenshot img {
+html[data-theme="dark"] .screenshot img {
   border: 1px solid white;
 }

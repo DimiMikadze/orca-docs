@@ -1,111 +1,111 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'The open-source software for building modern community apps',
+  title: "The open-source software for building modern community apps.",
   tagline:
-    'Within minutes, Orca gives you all the core features for building a community app, which is beautifully designed, easy to use, and ready to scale.',
-  url: 'https://getorca.org',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'dimimikadze', // Usually your GitHub org/user name.
-  projectName: 'getorca.org', // Usually your repo name.
-  url: 'https://dimimikadze.github.io.',
+    "Within minutes, Orca gives you all the core features for building a community app, which is beautifully designed, easy to use, and ready to scale.",
+  url: "https://getorca.org",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "dimimikadze", // Usually your GitHub org/user name.
+  projectName: "getorca.org", // Usually your repo name.
+  url: "https://dimimikadze.github.io.",
   trailingSlash: false,
   themeConfig: {
     gtag: {
-      trackingID: 'G-S35Z7Y1YR1',
+      trackingID: "G-S35Z7Y1YR1",
     },
     colorMode: {
       switchConfig: {
-        darkIcon: '☽',
+        darkIcon: "☽",
         darkIconStyle: {
-          color: '#fff',
+          color: "#fff",
         },
-        lightIcon: '☼',
+        lightIcon: "☼",
         lightIconStyle: {
-          color: '#fff',
+          color: "#fff",
         },
       },
     },
     footer: {
       links: [
         {
-          title: 'Getting Started',
+          title: "Getting Started",
           items: [
             {
-              label: 'Installation',
-              to: 'docs/getting-started/installation',
+              label: "Installation",
+              to: "docs/getting-started/installation",
             },
             {
-              label: 'Configuration',
-              to: 'docs/getting-started/configuration',
+              label: "Configuration",
+              to: "docs/getting-started/configuration",
             },
           ],
         },
         {
-          title: 'Deployment',
+          title: "Deployment",
           items: [
             {
-              label: 'Production mode',
-              to: 'docs/deployment/production-mode',
+              label: "Production mode",
+              to: "docs/deployment/production-mode",
             },
             {
-              label: 'Deployment options',
-              to: 'docs/deployment/deployment',
+              label: "Deployment options",
+              to: "docs/deployment/deployment",
             },
           ],
         },
         {
-          title: 'Contributing',
+          title: "Contributing",
           items: [
             {
-              label: 'Contributing guide',
-              to: 'docs/contributing',
+              label: "Contributing guide",
+              to: "docs/contributing",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/dimimikadze/orca',
+              label: "GitHub",
+              href: "https://github.com/dimimikadze/orca",
             },
             {
-              label: 'Orca demo app',
-              href: 'https://community.getorca.org/',
+              label: "Orca demo app",
+              href: "https://community.getorca.org/",
             },
           ],
         },
       ],
     },
     navbar: {
-      title: '',
+      title: "",
       logo: {
-        alt: 'Orca Logo',
-        src: 'img/logo-full.png',
-        srcDark: 'img/logo-full-dark.png',
+        alt: "Orca Logo",
+        src: "img/logo-full.png",
+        srcDark: "img/logo-full-dark.png",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'getting-started/installation',
-          position: 'right',
-          label: 'Docs',
+          type: "doc",
+          docId: "getting-started/installation",
+          position: "right",
+          label: "Docs",
         },
         {
-          href: 'https://community.getorca.org/',
-          label: 'Demo',
-          position: 'right',
+          href: "https://community.getorca.org/",
+          label: "Demo",
+          position: "right",
         },
         {
-          href: 'https://github.com/dimimikadze/orca',
-          label: 'Github',
-          position: 'right',
+          href: "https://github.com/dimimikadze/orca",
+          label: "Github",
+          position: "right",
         },
       ],
     },
@@ -116,15 +116,15 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: 'https://github.com/dimimikadze/getorca.org/edit/main',
+          editUrl: "https://github.com/dimimikadze/getorca.org/edit/main",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],

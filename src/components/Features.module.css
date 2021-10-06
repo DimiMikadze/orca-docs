@@ -46,9 +46,11 @@
 
 .featureContainer {
   border: 1px solid var(--border);
-  border-radius: 4px;
+  background-color: var(--border-light);
+  border-radius: 26px;
   padding: 2rem 1rem;
-  height: 160px;
+  height: 350px;
+  background-size: cover;
 }
 
 .featureTitle {
@@ -56,7 +58,7 @@
   flex-direction: row;
 }
 
-html[data-theme='dark'] .featureContainer {
+html[data-theme="dark"] .featureContainer {
   border: 1px solid var(--ifm-color-gray-800);
 }
 
@@ -81,6 +83,7 @@ html[data-theme='dark'] .featureContainer {
   margin-bottom: 6rem;
   width: 100%;
   text-align: center;
+  position: relative;
 }
 
 @media screen and (max-width: 600px) {
