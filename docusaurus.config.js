@@ -11,9 +11,9 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'ElevenSymbols', // Usually your GitHub org/user name.
+  organizationName: 'dimimikadze', // Usually your GitHub org/user name.
   projectName: 'getorca.org', // Usually your repo name.
-  url: 'https://elevensymbols.github.io.',
+  url: 'https://dimimikadze.github.io.',
   trailingSlash: false,
   themeConfig: {
     gtag: {
@@ -73,7 +73,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/ElevenSymbols/getorca.org',
+              href: 'https://github.com/dimimikadze/orca',
             },
             {
               label: 'Orca demo app',
@@ -103,7 +103,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/ElevenSymbols/getorca.org',
+          href: 'https://github.com/dimimikadze/orca',
           label: 'Github',
           position: 'right',
         },
@@ -121,7 +121,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/ElevenSymbols/getorca.org/edit/main',
+          editUrl: 'https://github.com/dimimikadze/getorca.org/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

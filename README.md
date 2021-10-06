@@ -8,7 +8,7 @@ This repo contains the source code and documentation powering [getorca.org](http
 2. Node: any 12.x version starting with v12.0.0 or greater
 3. Yarn: See [Yarn website for installation instructions](https://classic.yarnpkg.com/en/docs/install)
 4. A fork of the repo (for any contributions)
-5. A clone of the [getorca.org](https://github.com/ElevenSymbols/getorca.org) repo on your local machine
+5. A clone of the [getorca.org](https://github.com/dimimikadze/getorca.org) repo on your local machine
 
 ## Installation
 
@@ -30,7 +30,7 @@ This repo contains the source code and documentation powering [getorca.org](http
 
 1. `git add -A && git commit -m "My message"` (replacing `My message` with a commit message, such as `Fix a typo in `) to stage and commit your changes
 2. `git push my-fork-name the-name-of-my-branch`
-3. Go to the [getorca.org](https://github.com/ElevenSymbols/getorca.org) repo and you should see recently pushed branches.
+3. Go to the [getorca.org](https://github.com/dimimikadze/getorca.org) repo and you should see recently pushed branches.
 4. Follow GitHub's instructions.
 
 ## License
