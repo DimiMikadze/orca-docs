@@ -8,29 +8,18 @@ const colors = {
 };
 
 export default function ButtonLink({ isInternalLink, href, bgColor, color, leftRadius, children }) {
+  const styled = {
+    backgroundColor: `${colors[bgColor]}`,
+    color: `${colors[color]}`,
+    borderRadius: `${leftRadius ? `40px 40px 40px 0px` : `40px 40px 0px 40px`}`,
+  };
+
   return isInternalLink ? (
-    <Link
-      className={styles.link}
-      to={href}
-      style={{
-        backgroundColor: `${colors[bgColor]}`,
-        color: `${colors[color]}`,
-        borderRadius: `${leftRadius ? `40px 40px 40px 0px` : `40px 40px 0px 40px`}`,
-      }}
-    >
+    <Link className={styles.link} to={href} style={styled}>
       {children}
     </Link>
   ) : (
-    <a
-      className={styles.link}
-      href={href}
-      target="__blank"
-      style={{
-        backgroundColor: `${colors[bgColor]}`,
-        color: `${colors[color]}`,
-        borderRadius: `${leftRadius ? `40px 40px 40px 0px` : `40px 40px 0px 40px`}`,
-      }}
-    >
+    <a className={styles.link} href={href} style={styled} target="__blank" rel="noreferrer noopener">
       {children}
     </a>
   );
