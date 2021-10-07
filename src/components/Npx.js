@@ -18,11 +18,11 @@ const Npx = () => {
 
       {copied ? (
         <button className={clsx(styles.button, styles.buttonCheck)}>
-          <img src="../../static/img/check.svg" al="Check Icon" />
+          <img src="/img/check.svg" al="Check Icon" />
         </button>
       ) : (
         <button className={styles.button} onClick={copy} title="Copy">
-          <img src="../../static/img/copy.svg" alt="Copy Icon" />
+          <img src="/img/copy.svg" alt="Copy Icon" />
         </button>
       )}
     </div>
