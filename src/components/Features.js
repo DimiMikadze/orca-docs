@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
+import ButtonLink from '../components/ButtonLink';
 import {
   AiOutlineSearch,
   AiOutlineHome,
@@ -114,16 +114,16 @@ export default function HomepageFeatures() {
       <div className={styles.bottomContainer}>
         <h2>Ready to start?</h2>
         <div className={styles.buttons}>
-          <Link className="button button--primary button--lg" to="/docs/getting-started/installation">
+          <ButtonLink isInternalLink href="/docs/getting-started/installation" bgColor="primary" color="secondary">
             Get started
-          </Link>
+          </ButtonLink>
           {'\u00A0'}
           {'\u00A0'}
           {'\u00A0'}
           {'\u00A0'}
-          <Link className="button button--secondary button--lg" href="https://community.getorca.org">
+          <ButtonLink leftRadius href="https://community.getorca.org" bgColor="secondary" color="primary">
             Try demo
-          </Link>
+          </ButtonLink>
         </div>
         <Npx />
       </div>

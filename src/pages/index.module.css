@@ -5,7 +5,7 @@
 }
 
 .topLeftOverlay {
-  background-image: url("../../static//img/top-left-overlay.svg");
+  background-image: url('../../static//img/top-left-overlay.svg');
   background-size: cover;
   position: absolute;
   width: 1800px;
@@ -15,7 +15,7 @@
 }
 
 .topRightOverlay {
-  background-image: url("../../static//img/top-right-overlay.svg");
+  background-image: url('../../static//img/top-right-overlay.svg');
   background-size: cover;
   position: absolute;
   width: 2498px;
@@ -32,7 +32,7 @@
 }
 
 .bottomLeftOverlay {
-  background-image: url("../../static//img/bottom-left-overlay.svg");
+  background-image: url('../../static//img/bottom-left-overlay.svg');
   background-size: cover;
   position: absolute;
   width: 824px;
@@ -42,7 +42,7 @@
 }
 
 .bottomRightOverlay {
-  background-image: url("../../static//img/bottom-right-overlay.svg");
+  background-image: url('../../static//img/bottom-right-overlay.svg');
   background-size: cover;
   position: absolute;
   width: 724px;
@@ -132,6 +132,6 @@
   box-shadow: 0 16px 48px 0 rgb(0 0 0 / 5%);
 }
 
-html[data-theme="dark"] .screenshot img {
+html[data-theme='dark'] .screenshot img {
   border: 1px solid white;
 }
