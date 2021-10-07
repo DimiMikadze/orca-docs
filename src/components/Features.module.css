@@ -42,34 +42,46 @@
 
 .feature {
   margin-bottom: 1rem;
+  padding: 0 0.5rem !important;
 }
 
 .featureContainer {
-  border: 1px solid var(--border);
   background-color: var(--border-light);
   border-radius: 26px;
-  padding: 2rem 1rem;
-  height: 350px;
+  padding: 1rem 1rem;
   background-size: cover;
-}
-
-.featureTitle {
+  height: 370px;
   display: flex;
-  flex-direction: row;
-}
-
-html[data-theme="dark"] .featureContainer {
-  border: 1px solid var(--ifm-color-gray-800);
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
 }
 
 @media screen and (max-width: 966px) {
   .featureContainer {
     height: auto;
+    padding: 2rem 1rem;
+  }
+}
+
+.featureText {
+  height: auto;
+}
+
+@media screen and (min-width: 966px) {
+  .featureText {
+    height: 190px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .featureText {
+    height: 150px;
   }
 }
 
 .feature h3 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-left: 0.4rem;
   margin-top: -3px;
 }
