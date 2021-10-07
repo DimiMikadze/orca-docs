@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Npx.module.css';
-import { AiOutlineCopy, AiOutlineCheck } from 'react-icons/ai';
+import clsx from 'clsx';
 
 const COMMAND = 'npx create-orca-app my-app';
 
@@ -16,7 +16,15 @@ const Npx = () => {
     <div className={styles.npx}>
       <div>{COMMAND}</div>
 
-      {copied ? <AiOutlineCheck /> : <AiOutlineCopy className={styles.icon} onClick={copy} title="Copy" />}
+      {copied ? (
+        <button className={clsx(styles.button, styles.buttonCheck)}>
+          <img src="../../static/img/check.svg" al="Check Icon" />
+        </button>
+      ) : (
+        <button className={styles.button} onClick={copy} title="Copy">
+          <img src="../../static/img/copy.svg" alt="Copy Icon" />
+        </button>
+      )}
     </div>
   );
 };

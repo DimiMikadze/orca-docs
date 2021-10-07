@@ -5,7 +5,7 @@
  * work well for content-centric websites.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {
@@ -25,8 +25,8 @@
   --info: #4169e1;
   --error: #f44335;
 
-  --text: #050505;
-  --textSecondary: #64676b;
+  --text: #083834;
+  --textSecondary: #586766;
 
   --text-darkmd: #fff;
   --textSecondary-darkmd: #bdbdbd;
@@ -35,7 +35,7 @@
   --border: #e0e0e0;
   --border-dark: #bdbdbd;
 
-  --ifm-font-family-base: 'Lato', sans-serif;
+  --ifm-font-family-base: 'Maven Pro', sans-serif;
 }
 
 .docusaurus-highlight-code-line {

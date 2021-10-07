@@ -32,7 +32,7 @@
   }
 }
 
-.features {
+.featuresSection {
   margin-top: 2rem;
   display: flex;
   align-items: center;
@@ -40,55 +40,105 @@
   width: 100%;
 }
 
-.feature {
-  margin-bottom: 1rem;
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media screen and (max-width: 1024px) {
+  .featuresGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .featuresGrid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
 
 .featureContainer {
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 2rem 1rem;
-  height: 160px;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem !important;
 }
 
-.featureTitle {
+.feature {
+  position: relative;
+  background-repeat: no-repeat !important;
+  background-color: var(--border-light);
+  border-radius: 26px;
+  padding: 1rem 1rem;
+  overflow: hidden;
+  background-size: cover;
+  height: 370px;
   display: flex;
-  flex-direction: row;
-}
-
-html[data-theme='dark'] .featureContainer {
-  border: 1px solid var(--ifm-color-gray-800);
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  color: #000;
 }
 
 @media screen and (max-width: 966px) {
-  .featureContainer {
-    height: auto;
+  .feature {
+    height: 300px;
+    padding: 2rem 1rem;
+  }
+}
+
+html[data-theme='dark'] .feature {
+  background-color: #242526;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  opacity: 0.4;
+}
+
+html[data-theme='dark'] .icon {
+  opacity: 0.1;
+}
+
+.featureText {
+  height: auto;
+}
+
+@media screen and (min-width: 966px) {
+  .featureText {
+    height: 190px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .featureText {
+    height: 150px;
   }
 }
 
 .feature h3 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-left: 0.4rem;
   margin-top: -3px;
 }
 
 .feature p {
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 .bottomContainer {
   margin-top: 2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 0rem;
   width: 100%;
   text-align: center;
-}
-
-@media screen and (max-width: 600px) {
-  .bottomContainer {
-    text-align: left;
-  }
+  position: relative;
 }
 
 .buttons {
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
