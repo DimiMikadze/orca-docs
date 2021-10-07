@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/Features';
-import ButtonLink from '../components/ButtonLink';
+import ButtonLinks from '../components/ButtonLinks';
 import Npx from '../components/Npx';
 
 function HomePageWelcome() {
@@ -15,18 +15,7 @@ function HomePageWelcome() {
         <div className="container">
           <h1 className={clsx('hero__title heading ', styles.title)}>{siteConfig.title}</h1>
           <p className={clsx('hero__subtitle text', styles.subtitle)}>{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <ButtonLink isInternalLink href="/docs/getting-started/installation" bgColor="primary" color="secondary">
-              Get started
-            </ButtonLink>
-            {'\u00A0'}
-            {'\u00A0'}
-            {'\u00A0'}
-            {'\u00A0'}
-            <ButtonLink leftRadius href="https://community.getorca.org" bgColor="secondary" color="primary">
-              Try demo
-            </ButtonLink>
-          </div>
+          <ButtonLinks className={styles.buttons} />
           <Npx />
         </div>
       </header>
@@ -51,8 +40,8 @@ export default function Home() {
         <HomePageWelcome />
         <div className={styles.homePageFeatures}>
           <HomepageFeatures />
-          <div className={styles.bottomLeftOverlay}>d</div>
-          <div className={styles.bottomRightOverlay}>a</div>
+          <div className={styles.bottomLeftOverlay}></div>
+          <div className={styles.bottomRightOverlay}></div>
         </div>
       </div>
     </Layout>

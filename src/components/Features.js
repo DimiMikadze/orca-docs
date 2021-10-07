@@ -1,24 +1,8 @@
 import React from 'react';
-import clsx from 'clsx';
-import ButtonLink from '../components/ButtonLink';
-import {
-  AiOutlineSearch,
-  AiOutlineHome,
-  AiOutlineCrown,
-  AiOutlineGithub,
-  AiOutlineFileSearch,
-  AiOutlineMobile,
-  AiOutlineMessage,
-  AiOutlineUserAdd,
-  AiOutlineRocket,
-  AiOutlineMail,
-  AiOutlineVideoCamera,
-  AiOutlinePicCenter,
-} from 'react-icons/ai';
+import ButtonLinks from './ButtonLinks';
 
 import styles from './Features.module.css';
 import Npx from './Npx';
-import { url } from '../../docusaurus.config';
 
 const FeatureList = [
   {
@@ -28,7 +12,7 @@ const FeatureList = [
   },
   {
     title: 'Email notifications',
-    description: 'Receive an email every time someone follows you, messages you, likes your post, etc.',
+    description: 'Receive an email every time someone interacts with your profile or posts.',
     icon: 'email-notifications.svg',
   },
   {
@@ -42,7 +26,7 @@ const FeatureList = [
     icon: 'channels.svg',
   },
   {
-    title: 'Newsfeed and a Follow system',
+    title: 'Newsfeed and Following',
     description: 'See the fresh posts of the members that you are following in your Newsfeed.',
     icon: 'newsfeed.svg',
   },
@@ -58,7 +42,7 @@ const FeatureList = [
   },
   {
     title: 'SEO-friendly',
-    description: 'Built-in SEO best practices such as meta tags and pages loading performance.',
+    description: 'Built-in SEO best practices such as meta tags and page loading performance.',
     icon: 'seo.svg',
   },
   {
@@ -85,8 +69,9 @@ const FeatureList = [
 
 function Feature({ title, description, icon }) {
   return (
-    <div className={clsx('col col--3', styles.feature)}>
-      <div className={styles.featureContainer} style={{ backgroundImage: `url(../../static/img/${icon})` }}>
+    <div className={styles.featureContainer}>
+      <div className={styles.feature}>
+        <img src={`../../static/img/${icon}`} className={styles.icon} alt={title} />
         <div className={styles.featureText}>
           <h3 className="heading">{title}</h3>
           <p className="text">{description}</p>
@@ -103,8 +88,8 @@ export default function HomepageFeatures() {
         <h2 className="heading">Why Orca?</h2>
         <p className="text">Equipped with all you need to start fast and scale.</p>
       </div>
-      <section className={styles.features}>
-        <div className="row">
+      <section className={styles.featuresSection}>
+        <div className={styles.featuresGrid}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
@@ -113,18 +98,7 @@ export default function HomepageFeatures() {
 
       <div className={styles.bottomContainer}>
         <h2>Ready to start?</h2>
-        <div className={styles.buttons}>
-          <ButtonLink isInternalLink href="/docs/getting-started/installation" bgColor="primary" color="secondary">
-            Get started
-          </ButtonLink>
-          {'\u00A0'}
-          {'\u00A0'}
-          {'\u00A0'}
-          {'\u00A0'}
-          <ButtonLink leftRadius href="https://community.getorca.org" bgColor="secondary" color="primary">
-            Try demo
-          </ButtonLink>
-        </div>
+        <ButtonLinks className={styles.buttons} />
         <Npx />
       </div>
     </div>
