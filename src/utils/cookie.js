@@ -3,6 +3,10 @@ export const Cookies = {
 };
 
 export const setCookie = (name, value, days = 1) => {
+  if (typeof window === 'undefined') {
+    return;
+  }
+
   const d = new Date();
   d.setTime(d.getTime() + days * 24 * 60 * 60 * 1000);
   const expires = 'expires=' + d.toUTCString();
@@ -10,6 +14,10 @@ export const setCookie = (name, value, days = 1) => {
 };
 
 export const getCookie = (cname) => {
+  if (typeof window === 'undefined') {
+    return;
+  }
+
   const name = cname + '=';
   const ca = document.cookie.split(';');
   for (let i = 0; i < ca.length; i++) {
@@ -25,6 +33,10 @@ export const getCookie = (cname) => {
 };
 
 export const deleteCookie = (name) => {
+  if (typeof window === 'undefined') {
+    return;
+  }
+
   const date = new Date();
   date.setTime(date.getTime() + -1 * 24 * 60 * 60 * 1000);
   document.cookie = name + '=; expires=' + date.toUTCString() + '; path=/';
