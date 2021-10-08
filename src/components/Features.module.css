@@ -1,15 +1,9 @@
 /* stylelint-disable docusaurus/copyright-header */
 
 .container {
-  margin-top: 6rem;
+  margin-top: 4rem;
   text-align: center;
   width: 100%;
-}
-
-@media screen and (max-width: 600px) {
-  .container {
-    text-align: left;
-  }
 }
 
 .container h2,
@@ -119,8 +113,6 @@ html[data-theme='dark'] .icon {
 
 .feature h3 {
   font-size: 1.3rem;
-  margin-left: 0.4rem;
-  margin-top: -3px;
 }
 
 .feature p {
