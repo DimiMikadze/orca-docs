@@ -12,11 +12,11 @@ const Announcement = ({ setIsAnnouncementOpen }) => {
   return (
     <div className={styles.announcement}>
       <div>
-        <span className={styles.starIcon}>☆</span> If you like Orca, give it a star on{' '}
+        ☆ If you like Orca, give it a star on{' '}
         <a href="https://github.com/dimimikadze/orca" target="__blank" rel="noreferrer noopener">
           Github
         </a>{' '}
-        <span className={styles.starIcon}>☆</span>
+        ☆
       </div>
       <div>
         <iframe

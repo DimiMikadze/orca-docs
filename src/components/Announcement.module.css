@@ -9,17 +9,7 @@
   font-weight: 500;
   background-color: var(--primary);
   color: #fff;
-  padding: 0.5rem 1rem;
-}
-
-.starIcon {
-  display: none;
-}
-
-@media screen and (min-width: 600px) {
-  .starIcon {
-    display: inline-block;
-  }
+  padding: 0.5rem 2rem;
 }
 
 .announcementStars {
@@ -33,7 +23,7 @@
 
 .announcement button {
   position: absolute;
-  right: 0.5rem;
+  right: 0.4rem;
   top: 50%;
   transform: translateY(-50%);
   background-color: transparent;
