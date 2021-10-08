@@ -23,7 +23,7 @@
 
 .announcement button {
   position: absolute;
-  right: 0.4rem;
+  right: 0.2rem;
   top: 50%;
   transform: translateY(-50%);
   background-color: transparent;
@@ -56,5 +56,9 @@
 
   .announcementStars {
     margin-left: 0.5rem;
+  }
+
+  .announcement button {
+    right: 0.4rem;
   }
 }
