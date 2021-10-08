@@ -80,7 +80,7 @@
 }
 
 html[data-theme='dark'] .feature {
-  background-color: #242526;
+  background-color: var(--background-light);
 }
 
 .icon {

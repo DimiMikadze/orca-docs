@@ -1,0 +1,70 @@
+.announcement {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.starIcon {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .starIcon {
+    display: inline-block;
+  }
+}
+
+.announcementStars {
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+.announcementStars iframe {
+  margin-top: 1rem;
+}
+
+.announcement button {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: var(--text);
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+}
+
+.announcement a {
+  transition: all 0.1s;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.announcement a:hover {
+  opacity: 0.8;
+}
+
+.announcement button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 600px) {
+  .announcement {
+    padding: 0.2rem 1rem;
+    flex-direction: row;
+  }
+
+  .announcementStars {
+    margin-left: 0.5rem;
+  }
+}
