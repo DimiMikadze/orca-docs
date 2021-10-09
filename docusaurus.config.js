@@ -17,7 +17,7 @@ module.exports = {
   trailingSlash: false,
   themeConfig: {
     gtag: {
-      trackingID: 'G-S35Z7Y1YR1',
+      trackingID: 'G-YZ7SW2ED5J',
     },
     colorMode: {
       switchConfig: {
