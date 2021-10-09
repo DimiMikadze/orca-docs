@@ -35,7 +35,7 @@ packages/
 
 ## Development Workflow
 
-1. Clone the repo with git clone `https://github.com/dimimikadze/orca.git`
+1. Clone the repo with git clone `https://github.com/elevensymbols/orca.git`
 2. Run `yarn` in the root folder to install dependencies.
 
 ### Running the app
