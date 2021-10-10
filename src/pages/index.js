@@ -37,7 +37,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <div>
+    <>
       {isAnnouncementOpen && <Announcement setIsAnnouncementOpen={setIsAnnouncementOpen} />}
 
       <Layout className={styles.homePage} title={siteConfig.title} description={siteConfig.description}>
@@ -52,6 +52,6 @@ export default function Home() {
           </div>
         </div>
       </Layout>
-    </div>
+    </>
   );
 }

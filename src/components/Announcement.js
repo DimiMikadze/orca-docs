@@ -1,5 +1,4 @@
 import React from 'react';
-import BrowserOnly from '@docusaurus/BrowserOnly';
 import { Cookies, setCookie } from '../utils';
 import styles from './Announcement.module.css';
 
