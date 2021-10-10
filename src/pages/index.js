@@ -34,6 +34,8 @@ function HomePageWelcome() {
 export default function Home() {
   const announcementDisabled = getCookie(Cookies.ANNOUNCEMENT_DISABLED);
   const [isAnnouncementOpen, setIsAnnouncementOpen] = useState(announcementDisabled !== 'true');
+  console.log('announcementDisabled', announcementDisabled);
+  console.log('isAnnouncementOpen', isAnnouncementOpen);
   const { siteConfig } = useDocusaurusContext();
 
   return (
