@@ -1,9 +1,11 @@
+import { isServer } from '../constants';
+
 export const Cookies = {
   ANNOUNCEMENT_DISABLED: 'ANNOUNCEMENT_DISABLED',
 };
 
 export const setCookie = (name, value, days = 1) => {
-  if (typeof window === 'undefined') {
+  if (isServer) {
     return;
   }
 
@@ -14,7 +16,7 @@ export const setCookie = (name, value, days = 1) => {
 };
 
 export const getCookie = (cname) => {
-  if (typeof window === 'undefined') {
+  if (isServer) {
     return;
   }
 
@@ -33,7 +35,7 @@ export const getCookie = (cname) => {
 };
 
 export const deleteCookie = (name) => {
-  if (typeof window === 'undefined') {
+  if (isServer) {
     return;
   }
 

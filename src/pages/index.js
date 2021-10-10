@@ -8,6 +8,7 @@ import ButtonLinks from '../components/ButtonLinks';
 import Npx from '../components/Npx';
 import Announcement from '../components/Announcement';
 import { Cookies, getCookie } from '../utils';
+import { isServer } from '../constants';
 
 function HomePageWelcome() {
   const { siteConfig } = useDocusaurusContext();
@@ -34,8 +35,6 @@ function HomePageWelcome() {
 export default function Home() {
   const announcementDisabled = getCookie(Cookies.ANNOUNCEMENT_DISABLED);
   const [isAnnouncementOpen, setIsAnnouncementOpen] = useState(announcementDisabled !== 'true');
-  console.log('announcementDisabled', announcementDisabled);
-  console.log('isAnnouncementOpen', isAnnouncementOpen);
   const { siteConfig } = useDocusaurusContext();
 
   return (
