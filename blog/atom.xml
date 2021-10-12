@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://elevensymbols.github.io./blog</id>
-    <title>The open-source software for building modern community apps. Blog</title>
+    <title>Launch faster with a modern open-source community platform. Blog</title>
     <updated>2019-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://elevensymbols.github.io./blog"/>
-    <subtitle>The open-source software for building modern community apps. Blog</subtitle>
+    <subtitle>Launch faster with a modern open-source community platform. Blog</subtitle>
     <icon>https://elevensymbols.github.io./img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>

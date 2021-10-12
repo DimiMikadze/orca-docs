@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>The open-source software for building modern community apps. Blog</title>
+        <title>Launch faster with a modern open-source community platform. Blog</title>
         <link>https://elevensymbols.github.io./blog</link>
-        <description>The open-source software for building modern community apps. Blog</description>
+        <description>Launch faster with a modern open-source community platform. Blog</description>
         <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
