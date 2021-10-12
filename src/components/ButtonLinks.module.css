@@ -1,5 +1,5 @@
 .link {
-  padding: 1.1rem 2.4rem;
+  padding: 1rem 2.4rem;
   text-decoration: none !important;
   border: 2px solid #000;
   font-weight: 500;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 600px) {
   .link {
-    padding: 1.1rem 2rem;
+    padding: 1rem 2rem;
   }
 }
 
