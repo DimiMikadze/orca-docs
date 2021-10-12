@@ -16,7 +16,7 @@ module.exports = {
   url: 'https://elevensymbols.github.io.',
   trailingSlash: false,
   themeConfig: {
-    image: 'img/social.jpeg',
+    image: 'https://res.cloudinary.com/dkkf9iqnd/image/upload/v1634034591/community/social.jpg',
     gtag: {
       trackingID: 'G-YZ7SW2ED5J',
     },
