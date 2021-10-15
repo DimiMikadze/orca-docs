@@ -67,3 +67,11 @@ html[data-theme='dark'] .heading {
 html[data-theme='dark'] .text {
   color: var(--textSecondary-darkmd);
 }
+
+.footer-link {
+  color: var(--text);
+}
+
+html[data-theme='dark'] .footer-link {
+  color: #fff;
+}

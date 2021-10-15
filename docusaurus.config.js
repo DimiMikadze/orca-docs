@@ -83,6 +83,7 @@ module.exports = {
           ],
         },
       ],
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="http://elevensymbols.com" class="footer-link" target="__blank" rel="noreferrer noopener">Eleven Symbols</a>`,
     },
     navbar: {
       title: '',
