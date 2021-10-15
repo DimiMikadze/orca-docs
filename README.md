@@ -2,6 +2,8 @@
 
 This repo contains the source code and documentation powering [getorca.org](https://getorca.org)
 
+If you are looking for the Orca code, please see the [Orca Monorepo](https://github.com/elevensymbols/orca). This Repo is only for landing page and documentation.
+
 ## Prerequisites
 
 1. Git
