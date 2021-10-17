@@ -77,7 +77,7 @@ module.exports = {
               href: 'https://github.com/elevensymbols/orca',
             },
             {
-              label: 'Orca demo app',
+              label: 'Orca Community',
               href: 'https://community.getorca.org/',
             },
           ],
