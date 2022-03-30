@@ -6,12 +6,13 @@ module.exports = {
   title: 'Launch faster with a modern open-source community platform.',
   tagline:
     'Within minutes, Orca gives you all the core features for building a community app, which is beautifully designed, easy to use, and ready to scale.',
-  baseUrl: '/',
+  baseUrl: '/orca-docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'dimimikadze', // Usually your GitHub org/user name.
   projectName: 'orca-docs', // Usually your repo name.
+  url: 'https://dimimikadze.github.io/orca-docs',
   trailingSlash: false,
   themeConfig: {
     image: 'https://res.cloudinary.com/dkkf9iqnd/image/upload/v1634034591/community/social.jpg',
