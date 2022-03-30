@@ -6,14 +6,13 @@ module.exports = {
   title: 'Launch faster with a modern open-source community platform.',
   tagline:
     'Within minutes, Orca gives you all the core features for building a community app, which is beautifully designed, easy to use, and ready to scale.',
-  url: 'https://getorca.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'dimimikadze', // Usually your GitHub org/user name.
-  projectName: 'getorca.org', // Usually your repo name.
-  url: 'https://dimimikadze.github.io.',
+  projectName: 'orca-docs', // Usually your repo name.
+  url: 'https://dimimikadze.github.io/orca-docs/.',
   trailingSlash: false,
   themeConfig: {
     image: 'https://res.cloudinary.com/dkkf9iqnd/image/upload/v1634034591/community/social.jpg',
@@ -76,10 +75,6 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/dimimikadze/orca',
             },
-            {
-              label: 'Orca Community',
-              href: 'https://community.getorca.org/',
-            },
           ],
         },
       ],
@@ -118,7 +113,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/dimimikadze/getorca.org/edit/main',
+          editUrl: 'https://github.com/dimimikadze/orca-docs/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
