@@ -15,11 +15,11 @@ export default function ButtonLinks({ className }) {
       {'\u00A0'}
       <a
         className={clsx(styles.link, styles.linkWhite)}
-        href="https://community.getorca.org"
+        href="https://github.com/dimimikadze/orca"
         target="__blank"
         rel="noreferrer noopener"
       >
-        Try demo
+        Github
       </a>
     </div>
   );

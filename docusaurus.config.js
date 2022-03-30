@@ -100,11 +100,6 @@ module.exports = {
           label: 'Docs',
         },
         {
-          href: 'https://community.getorca.org/',
-          label: 'Demo',
-          position: 'right',
-        },
-        {
           href: 'https://github.com/dimimikadze/orca',
           label: 'Github',
           position: 'right',
