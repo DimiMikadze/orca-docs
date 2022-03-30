@@ -5,7 +5,7 @@ import styles from './Announcement.module.css';
 
 const Announcement = ({ setIsAnnouncementOpen }) => {
   const onCloseClick = () => {
-    setCookie(Cookies.ANNOUNCEMENT_DISABLED, 'true', 1);
+    setCookie(Cookies.ANNOUNCEMENT_DISABLED, 'true', 360);
     setIsAnnouncementOpen(false);
   };
 
@@ -15,7 +15,7 @@ const Announcement = ({ setIsAnnouncementOpen }) => {
         <div className={styles.announcement}>
           <div>
             ☆ If you like Orca, give it a star on{' '}
-            <a href="https://github.com/elevensymbols/orca" target="__blank" rel="noreferrer noopener">
+            <a href="https://github.com/dimimikadze/orca" target="__blank" rel="noreferrer noopener">
               Github
             </a>{' '}
             ☆
@@ -23,7 +23,7 @@ const Announcement = ({ setIsAnnouncementOpen }) => {
           <div>
             <iframe
               className={styles.announcementStars}
-              src="https://ghbtns.com/github-btn.html?user=elevensymbols&repo=orca&type=star&count=true"
+              src="https://ghbtns.com/github-btn.html?user=dimimikadze&repo=orca&type=star&count=true"
               frameBorder="0"
               scrolling="0"
               width="104"

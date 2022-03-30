@@ -11,9 +11,9 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'elevensymbols', // Usually your GitHub org/user name.
+  organizationName: 'dimimikadze', // Usually your GitHub org/user name.
   projectName: 'getorca.org', // Usually your repo name.
-  url: 'https://elevensymbols.github.io.',
+  url: 'https://dimimikadze.github.io.',
   trailingSlash: false,
   themeConfig: {
     image: 'https://res.cloudinary.com/dkkf9iqnd/image/upload/v1634034591/community/social.jpg',
@@ -74,7 +74,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/elevensymbols/orca',
+              href: 'https://github.com/dimimikadze/orca',
             },
             {
               label: 'Orca Community',
@@ -83,7 +83,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="http://elevensymbols.com" class="footer-link" target="__blank" rel="noreferrer noopener">Eleven Symbols</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="http://dimimikadze.com" class="footer-link" target="__blank" rel="noreferrer noopener">Dimi Mikadze</a>`,
     },
     navbar: {
       title: '',
@@ -105,7 +105,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/elevensymbols/orca',
+          href: 'https://github.com/dimimikadze/orca',
           label: 'Github',
           position: 'right',
         },
@@ -123,7 +123,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/elevensymbols/getorca.org/edit/main',
+          editUrl: 'https://github.com/dimimikadze/getorca.org/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
