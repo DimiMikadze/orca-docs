@@ -12,7 +12,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'dimimikadze', // Usually your GitHub org/user name.
   projectName: 'orca-docs', // Usually your repo name.
-  url: 'https://dimimikadze.github.io/orca-docs',
   trailingSlash: false,
   themeConfig: {
     image: 'https://res.cloudinary.com/dkkf9iqnd/image/upload/v1634034591/community/social.jpg',
