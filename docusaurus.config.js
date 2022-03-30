@@ -6,7 +6,7 @@ module.exports = {
   title: 'Launch faster with a modern open-source community platform.',
   tagline:
     'Within minutes, Orca gives you all the core features for building a community app, which is beautifully designed, easy to use, and ready to scale.',
-  baseUrl: '/orca-docs',
+  baseUrl: '/orca-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
