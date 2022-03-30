@@ -18,11 +18,11 @@ const Npx = () => {
 
       {copied ? (
         <button className={clsx(styles.button, styles.buttonCheck)}>
-          <img src="/img/check.svg" al="Check Icon" />
+          <img src="/orca-docs/img/check.svg" al="Check Icon" />
         </button>
       ) : (
         <button className={styles.button} onClick={copy} title="Copy">
-          <img src="/img/copy.svg" alt="Copy Icon" />
+          <img src="/orca-docs/img/copy.svg" alt="Copy Icon" />
         </button>
       )}
     </div>

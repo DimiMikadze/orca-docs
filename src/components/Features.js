@@ -71,7 +71,7 @@ function Feature({ title, description, icon }) {
   return (
     <div className={styles.featureContainer}>
       <div className={styles.feature}>
-        <img src={`/img/${icon}`} className={styles.icon} alt={title} />
+        <img src={`/orca-docs/img/${icon}`} className={styles.icon} alt={title} />
         <div className={styles.featureText}>
           <h3 className="heading">{title}</h3>
           <p className="text">{description}</p>
